@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta class="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="portofolio">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: hsl(201, 28%, 90%);
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: center;
+            background-color: hsla(296, 16%, 62%, 0.836);
+            padding: 15px;
+        }
+
+        .navbar a {
+            color: black;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 15px;
+            transition: color 0.3s ease;
+        }
+
+        .navbar a:hover {
+            color: white;
+        }
+        .projects-container {
+            display: flex;
+            flex-direction: row; /* Align boxes vertically */
+            align-items: center; /* Center items horizontally */
+            margin: 20px; /* Space around the container */
+        }
+
+        /* Individual experience box */
+        .projects {
+            display: flex;
+            flex-direction: column; /* Align text vertically */
+            background-color: hsla(296, 16%, 62%, 0.836);
+            color: black;
+            font-size: 15px;
+            padding: 20px; /* More padding for better appearance */
+            border-radius: 10px; /* Slightly rounded corners */
+            margin: 10px; /* Space between boxes */
+            width: 300px; /* Fixed width for uniformity */
+            text-align: start; /* Center text */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for a 3D effect */
+        }
+        .skill-badge {
+            display: inline-block;
+            background-color: hwb(286 40% 46% / 0.982);
+            color: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+            margin: 5px;
+            font-size: 14px;
+            transition: background-color 0.3s;
+        }
+    </style>
+</head>
+<body>
+    <section class="navbar">
+        <a href="C:\Users\NAFOURI\Desktop\؟؟؟؟؟؟؟؟؟؟؟؟؟؟\portofolio\index.html">Home</a>
+        <a href="C:\Users\NAFOURI\Desktop\؟؟؟؟؟؟؟؟؟؟؟؟؟؟\portofolio\projects.html">Projects</a>
+        <a href="C:\Users\NAFOURI\Desktop\؟؟؟؟؟؟؟؟؟؟؟؟؟؟\portofolio\experince.html">Experience</a>
+    </section>
+    <div class="projects-container">
+        <section class="projects">
+            <h1>Baby Tracker</h1>
+            <span class="skill-badge">Flutter</span>
+            <span class="skill-badge">MySQL</span>
+            <span class="skill-badge">PHP</span>
+            <span class="skill-badge">REST API</span>
+            <button>
+                <a href="https://github.com/Nafoury/baby_tracker1">Visit</a>
+            </button>
+        </section>
+        <section class="projects">
+            <h1>Pharmacy drug registration</h1>
+            <span class="skill-badge">Java</span>
+            <span class="skill-badge">Sqlite</span>
+            <span class="skill-badge">Firebase</span>
+            <button>
+                <a href="https://github.com/Nafoury/pharmacy_register">Visit</a>
+            </button>
+            
+        </section>
+    </div>
+</body>
+</html>
